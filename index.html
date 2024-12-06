@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./assets/css/css_bootstrap/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/estilos.css" rel="stylesheet">
+    <title>Documento</title>
+  </head>
+  <body onload="asignarEventos()">
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <div class="row">
+            <div class="col-10 bg-danger colorRojo" id="divPrincipales">
+              <div class="col-2"></div>
+              <p>1-5</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10 bg-success colorVerde" id="divSecundarios">
+              <div class="col-2"></div>
+              <p>6-11</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-10 bg-info colorAzul" id="divOtros">
+            <div class="col-2"></div>
+              <p>12-17</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-9">
+          <div id="contenedorCard"></div>
+        </div>
+      </div>
+    </div>
+    <script src="./assets/js/js_bootstrap/bootstrap.bundle.js"></script>
+    <script src="./assets/js/logica.js"></script>
+  </body>
+</html>
